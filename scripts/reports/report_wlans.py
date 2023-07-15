@@ -145,6 +145,6 @@ if __name__ == "__main__":
         f.write('\r\n')
         for row in wlans_summarized:
             for field in row:
-                f.write(field)
+                f.write(str(field))
                 f.write(csv_separator)
             f.write('\r\n')
